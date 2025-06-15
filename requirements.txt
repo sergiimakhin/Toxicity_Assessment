@@ -1,21 +1,14 @@
-# Core Streamlit + Plotting
 streamlit==1.45.1
-matplotlib==3.10.3
-pandas==2.3.0
-numpy==2.1.2
-
-# Transformers and Model Inference
 torch==2.2.2
 transformers==4.52.4
 tokenizers==0.21.1
-huggingface-hub==0.33.0
-safetensors==0.5.3
-
-# Utility
+pandas==2.3.0
+numpy==2.1.2
+matplotlib==3.10.3
 scikit-learn==1.7.0
-scikit-multilearn==0.2.0
 tqdm==4.67.1
 requests==2.32.4
+safetensors==0.5.3
+huggingface-hub==0.33.0
 
-# Optional Git dependency
 iterative-stratification @ git+https://github.com/trent-b/iterative-stratification.git@c763bd5440e5f03c6447471305897c1046fc4838
